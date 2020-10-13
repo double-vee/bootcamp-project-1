@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+body{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.4em;
@@ -27,15 +27,17 @@ a{
   color: rgb(121, 130, 136);
 }
 
-input[type="text"]{
+input[type="search"]{
+  width: 100px;
   padding: 12px;
   border: 1px solid #eee;
   border-radius: 20px;
   color: rgb(121, 130, 136);
+  transition: width 0.5s;
 }
 
-input[type="text"]:focus{
-  width: 200%;
+input[type="search"]:focus{
+  width: 200px;
   color: rgb(121, 130, 136);
 }
 
