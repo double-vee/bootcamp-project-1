@@ -101,12 +101,23 @@ input[type="submit"]{
 }
 
 .black-bar-top{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   /* display: flex; */
+}
+
+.black-bar-top a{
+  padding: 2px 12px;
+  border-right: 1px solid rgb(121, 130, 136);
+}
+
+.black-bar-top a:last-child{
+  border-right: none;
 }
 
 .black-bar-bottom{
   text-transform: uppercase;
 }
 
-
+.black-bar-bottom p{
+  padding-bottom: 10px;
+}
