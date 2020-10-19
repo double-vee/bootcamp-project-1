@@ -66,11 +66,11 @@ img{
 }
 
 .nwsl h2{
+  padding-top: 0;
   padding-bottom: 20px;
 }
 
 .nwsl p{
-  padding-bottom: 20px;
   color: rgb(121, 130, 136);
 }
 
