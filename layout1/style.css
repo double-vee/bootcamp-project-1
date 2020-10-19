@@ -42,20 +42,19 @@ input[type="search"]:focus{
 }
 
 h2{
-  margin-top: 30px;
-  margin-left: 20px;
-  padding: 0 20px;
+  margin: 0 40px;
+  padding-top: 30px;
   font-family: 'Fjord One', serif;
   font-size: 22px;
 }
 
 p{
-  margin: 0 20px;
-  padding: 0 20px;
+  margin: 0 40px;
+  padding-bottom: 20px;
 }
 
 img{
-  margin: 20px 0;
+  padding: 1.5rem;
   max-width: 100%;
 }
 
@@ -67,12 +66,10 @@ img{
 }
 
 .nwsl h2{
-  margin: 0;
   padding-bottom: 20px;
 }
 
 .nwsl p{
-  margin: 0;
   padding-bottom: 20px;
   color: rgb(121, 130, 136);
 }
