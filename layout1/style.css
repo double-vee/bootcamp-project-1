@@ -64,6 +64,22 @@ input[type="search"]:focus{
   color: rgb(121, 130, 136);
 }
 
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px auto;
+  padding: 0 40px;
+  max-width: 80vw;
+}
+
+#main{
+  flex-basis: 75%;
+}
+
+#aside{
+  flex-basis: 25%;
+}
+
 h2{
   margin: 0 40px;
   padding-top: 30px;
