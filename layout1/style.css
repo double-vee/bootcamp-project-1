@@ -67,8 +67,8 @@ input[type="search"]:focus{
 .container{
   display: flex;
   flex-flow: row wrap;
-  margin: 20px auto;
-  padding: 0 40px;
+  margin: 0 auto;
+  padding: 40px;
   max-width: 80vw;
 }
 
@@ -82,18 +82,18 @@ input[type="search"]:focus{
 
 h2{
   margin: 0 40px;
-  padding-top: 30px;
+  padding-bottom: 10px;
   font-family: 'Fjord One', serif;
   font-size: 22px;
 }
 
 p{
   margin: 0 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 img{
-  padding: 1.5rem;
+  padding: 20px;
   max-width: 100%;
 }
 
