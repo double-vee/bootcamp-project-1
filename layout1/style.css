@@ -19,24 +19,28 @@ body{
   margin: 0 auto;
 }
 
+.nav-left,
+.nav-right{
+  display: flex;
+}
+
 a{
-  padding: 12px;
   text-decoration: none;
   text-transform: uppercase;
   color: #798288;
 }
 
 .navbar a{
+  padding: 12px 8px;
   color: #8d979e;
   text-transform: none;
   font-size: 15px;
 }
 
 a.logo{
-  padding: 30px;
   color: #000;
   font-family: 'Fjord One', serif;
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: lowercase;
 }
@@ -57,7 +61,7 @@ input[type="search"]:focus{
 
 .container{
   display: flex;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 #main{
@@ -134,7 +138,7 @@ input[type="submit"]{
 .black-bar-top a{
   display: inline-block;
   margin-bottom: 10px;
-  padding: 2px 12px;
+  padding: 2px 16px;
   border-right: 1px solid rgb(121, 130, 136);
 }
 
@@ -151,23 +155,33 @@ input[type="submit"]{
 }
 
 @media (max-width: 749px){
-  .logo{
+  #main-nav{
+    padding: 10px;
+  }
+
+  .navbar{
+    flex-direction: column;
+    max-width: 80vw;
+  }
+
+  .nav-left,
+  .nav-right{
+    flex-direction: column;
+  }
+
+  a.logo{
     order: -2;
+    align-self: center;
+    font-size: 1.6rem;
   }
 
   .nav-btn{
     order: -1;
+    align-self: flex-end;
     padding: 10px 15px;
-    border: none;
-    background: #eee;
+    border: 1px solid #eee;
+    background: none;
   }
-
-  .navbar{
-    flex-wrap: nowrap;
-    flex-direction: column;
-    max-width: 90vw;
-    padding-bottom: 10px;
-  }  
 
   .nav-left a,
   .nav-right a,
@@ -178,38 +192,38 @@ input[type="submit"]{
   .navbar:hover .nav-left a,
   .navbar:hover .nav-right a,
   .navbar:hover .nav-right input{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: block;
   }
 
   .container{
     flex-direction: column;
     max-width: 90vw;
-    padding-top: 40px;    
   }
  }
 
 @media (min-width: 750px){
+  #main-nav{
+    padding: 20px;
+  }
+
   .navbar{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    max-width: 80vw;
+    max-width: 70vw;
+  }
+
+  .nav-left,
+  .nav-right{
+    align-items: center;
   }
 
   .nav-btn{
     display: none;
   }
 
-  .form-search{
-    display: inline;
-  }
-
   .container{
-    flex-flow: row wrap;
-    padding: 40px;
-    max-width: 80vw;
+    max-width: 70vw;
   }
 }
