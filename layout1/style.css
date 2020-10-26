@@ -134,23 +134,23 @@ img{
 
 .nwsl{
   margin-top: 20px;
-  padding: 40px;
+  padding: 80px;
   background: #eee;
   text-align: center;
 }
 
 .nwsl h2{
-  padding-top: 0;
-  padding-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .nwsl p{
+  margin-bottom: 30px;
   color: #798288;
 }
 
 input[type="email"],
 input[type="submit"]{
-  padding: 10px;
+  padding: 10px 12px;
   border: none;
   color: #798288;
   font-size: 14px;
@@ -160,6 +160,7 @@ input[type="submit"]{
   background: #798288;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 0.04em;
   font-weight: 700;
 }
 
