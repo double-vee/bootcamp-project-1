@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 14px;
   line-height: 1.4em;
 }
@@ -52,11 +52,14 @@ input[type="search"]{
   border-radius: 20px;
   color: #798288;
   transition: width 0.5s;
+  font-size: 14px;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 input[type="search"]:focus{
-  width: 200px;
-  color: #798288;
+  width: 250px;
+  border: 1px solid #5e666d;
+  outline: none;
 }
 
 .container{
@@ -162,12 +165,13 @@ input[type="email"],
 input[type="submit"]{
   padding: 10px 12px;
   border: none;
-  color: #798288;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 14px;
 }
 
 input[type="email"]{
   max-width: 100%;
+  color: #798288;
 }
 
 input[type="submit"]{
@@ -176,6 +180,20 @@ input[type="submit"]{
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-weight: 700;
+  cursor: pointer;
+}
+
+input[type="email"]:focus{
+  border: 1px solid #5e666d;
+  outline: none;
+}
+
+input[type="email"]:invalid{
+  box-shadow: none;
+}
+
+input[type="submit"]:hover{
+  background:#5e666d;
 }
 
 ::-moz-placeholder{
