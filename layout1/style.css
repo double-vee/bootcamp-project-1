@@ -89,6 +89,20 @@ img{
   max-width: 100%;
 }
 
+.tag a{
+  padding: 5px 10px;
+  background: #f4f6f8;
+  color: #000;
+  font-size: 10.5px;
+  font-weight: 700;
+  line-height: 2.5em;
+  letter-spacing: 0.08em;
+}
+
+.tag a:hover{
+  background: #e2e6ea;
+}
+
 .nwsl{
   margin-top: 20px;
   padding: 40px;
