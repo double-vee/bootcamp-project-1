@@ -133,6 +133,9 @@ img{
 }
 
 .nwsl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
   padding: 80px;
   background: #eee;
@@ -148,6 +151,13 @@ img{
   color: #798288;
 }
 
+.form-email{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
 input[type="email"],
 input[type="submit"]{
   padding: 10px 12px;
@@ -156,12 +166,20 @@ input[type="submit"]{
   font-size: 14px;
 }
 
+input[type="email"]{
+  max-width: 100%;
+}
+
 input[type="submit"]{
-  background: #798288;
+  background:#6c757d;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-weight: 700;
+}
+
+::-moz-placeholder{
+  opacity: 1;
 }
 
 .black-bar{
