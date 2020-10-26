@@ -121,8 +121,6 @@ input[type="submit"]{
 }
 
 .black-bar{
-  padding: 40px;
-  padding-bottom: 30px;
   background: #000;
   color: rgb(121, 130, 136);
   font-size: 15px;
@@ -130,28 +128,46 @@ input[type="submit"]{
 }
 
 .black-bar-top{
-  margin-bottom: 40px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid rgb(121, 130, 136);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #212529;
+}
+
+.black-bar-top,
+.black-bar-bottom{
+  max-width: 70vw;
+  margin: 0 auto;
+  color: #555d65;
+  text-transform: uppercase;
+}
+
+.black-bar-bottom{
+  padding: 20px;
 }
 
 .black-bar-top a{
-  display: inline-block;
-  margin-bottom: 10px;
+  margin: 20px 0;
   padding: 2px 16px;
-  border-right: 1px solid rgb(121, 130, 136);
+  border-right: 1px solid #555d65;
+  color: #555d65;
+}
+
+.black-bar-top a:hover{
+  color: #ddd;
+  transition: color 0.5s;
 }
 
 .black-bar-top a:last-child{
   border-right: none;
 }
 
-.black-bar-bottom{
-  text-transform: uppercase;
-}
-
 .black-bar-bottom p{
-  padding-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
 }
 
 @media (max-width: 749px){
