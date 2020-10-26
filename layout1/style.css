@@ -20,7 +20,8 @@ body{
 }
 
 .nav-left,
-.nav-right{
+.nav-right,
+.nav-middle{
   display: flex;
 }
 
@@ -37,7 +38,7 @@ a{
   font-size: 15px;
 }
 
-a.logo{
+.nav-middle .logo{
   color: #000;
   font-family: 'Fjord One', serif;
   font-size: 2rem;
@@ -195,27 +196,32 @@ input[type="submit"]{
   }
 
   .navbar{
-    flex-direction: column;
+    flex-flow: column;
+    align-items: flex-start;
     max-width: 80vw;
+  }
+
+  .nav-middle{
+    order: -1;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-self: stretch;
+  }
+
+  .nav-middle .logo{
+    order: -1;
+    font-size: 1.6rem;
+  }
+
+  .nav-btn{
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    background: none;
   }
 
   .nav-left,
   .nav-right{
     flex-direction: column;
-  }
-
-  a.logo{
-    order: -2;
-    align-self: center;
-    font-size: 1.6rem;
-  }
-
-  .nav-btn{
-    order: -1;
-    align-self: flex-end;
-    padding: 10px 15px;
-    border: 1px solid #eee;
-    background: none;
   }
 
   .nav-left a,
