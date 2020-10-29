@@ -2,8 +2,9 @@
 
 ## Layout 1
 
-![layout 1 top](layout1_main.png)
-![layout 1 bottom](layout1_footer.png)
+#### Source: https://milo.bootlab.io/home-twocolumn.html
+
+![layout 1](layout1_main.png)
 
 [Link to layout 1](layout1/index.html)
 
