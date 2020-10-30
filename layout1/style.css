@@ -268,7 +268,7 @@ input[type="submit"]:hover{
   .navbar{
     flex-flow: column;
     align-items: flex-start;
-    max-width: 85vw;
+    max-width: 520px;
   }
 
   .nav-middle{
@@ -309,7 +309,7 @@ input[type="submit"]:hover{
   .container{
     flex-direction: column;
     margin: 15px auto;
-    /* max-width: 100vw; */
+    max-width: 540px;
   }
  }
 
@@ -322,7 +322,7 @@ input[type="submit"]:hover{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    max-width: 70vw;
+    max-width: 700px;
   }
 
   .nav-left,
@@ -336,7 +336,7 @@ input[type="submit"]:hover{
 
   .container{
     margin: 20px auto;
-    max-width: 65vw;
+    max-width: 720px;
   }
 
   #main{
@@ -353,5 +353,25 @@ input[type="submit"]:hover{
   
   #aside{
     flex-basis: 25%;
+  }
+}
+
+@media (min-width: 975px){
+  .container{
+    max-width: 960px;
+  }
+
+  .navbar{
+    max-width: 940px;
+  }
+}
+
+@media (min-width: 1182px){
+  .container{
+    max-width: 1220px;
+  }
+
+  .navbar{
+    max-width: 1200px;
   }
 }
