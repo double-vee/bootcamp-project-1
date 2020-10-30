@@ -341,13 +341,14 @@ input[type="submit"]:hover{
   .container{
     margin: 20px auto;
     max-width: 720px;
+    overflow: hidden;
   }
 
   #main{
     flex-basis: 75%;
     flex-wrap: wrap;
-    gap: 10px 20px;
-    height: 150vh;
+    gap: 10px 5px;
+    height: 1500px;
   }
 
   #main article{
