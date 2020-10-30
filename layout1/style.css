@@ -358,7 +358,7 @@ input[type="submit"]:hover{
     flex-basis: 75%;
     flex-wrap: wrap;
     gap: 10px 5px;
-    height: 1500px;
+    max-height: 1250px;
   }
 
   #main article{
@@ -379,6 +379,10 @@ input[type="submit"]:hover{
   .navbar{
     max-width: 940px;
   }
+
+  #main{
+    max-height: 1300px;
+  }
 }
 
 @media (min-width: 1182px){
@@ -388,5 +392,9 @@ input[type="submit"]:hover{
 
   .navbar{
     max-width: 1200px;
+  }
+
+  #main{
+    max-height: 1400px;
   }
 }
