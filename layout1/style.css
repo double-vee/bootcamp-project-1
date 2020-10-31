@@ -156,6 +156,12 @@ img{
   background: #e2e6ea;
 }
 
+#aside .sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .nwsl{
   display: flex;
   flex-direction: column;
@@ -355,7 +361,7 @@ input[type="submit"]:hover{
   .container{
     margin: 20px auto;
     max-width: 720px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   #main{
