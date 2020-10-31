@@ -45,8 +45,8 @@ a{
 
 .nav-middle .logo{
   color: #000;
-  font-family: 'Fjord One', serif;
-  font-size: 2rem;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.5rem;
   font-weight: 700;
   text-transform: lowercase;
 }
@@ -116,14 +116,14 @@ input[type="search"]:focus{
 
 h2, h3{
   margin-bottom: 12px;
-  font-family: 'Fjord One', serif;
-  font-size: 22px;
-  line-height: 1.4em;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1.35rem;
+  line-height: 1.2em;
 }
 
 h3{
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: 0.85rem;
   line-height: 1.4em;
 }
 
@@ -290,7 +290,7 @@ input[type="submit"]:hover{
 
   .nav-middle .logo{
     order: -1;
-    font-size: 1.6rem;
+    font-size: 1.65rem;
   }
 
   .nav-btn{
