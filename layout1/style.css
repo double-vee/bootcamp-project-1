@@ -70,7 +70,7 @@ input[type="search"]:focus{
 
 .container{
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 #main{
@@ -85,7 +85,7 @@ input[type="search"]:focus{
 
 #main article{
   margin-bottom: 10px;
-  padding: 10px 25px;
+  padding: 10px 18px;
 }
 
 #aside section{
@@ -319,7 +319,7 @@ input[type="submit"]:hover{
   .container{
     flex-direction: column;
     margin: 15px auto;
-    max-width: 540px;
+    max-width: 92vw;
   }
 
   #aside h2, p, .tag, article{
