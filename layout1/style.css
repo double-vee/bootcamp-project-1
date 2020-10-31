@@ -131,6 +131,15 @@ h3{
   line-height: 1.4em;
 }
 
+a.heading,
+a.image{
+  display: block;
+}
+
+a.heading:hover{
+  text-decoration: none;
+}
+
 #main p{
   padding: 24px;
 }
@@ -329,7 +338,7 @@ input[type="submit"]:hover{
   .container{
     flex-direction: column;
     margin: 15px auto;
-    max-width: 92vw;
+    max-width: 90vw;
   }
 
   #aside h2, p, .tag, article{
