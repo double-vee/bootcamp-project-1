@@ -34,12 +34,16 @@ a{
   padding: 12px 8px;
   color: #8d979e;
   text-transform: none;
-  font-size: 15px;
+  font-size: 0.95rem;
+}
+
+a.current{
+  color: #3e4347;
 }
 
 .nav-left a:hover,
 .nav-right a:hover{
-  color: #5e666d;
+  color: #3e4347;
   transition: color 0.4s;
 }
 
@@ -334,7 +338,7 @@ input[type="submit"]:hover{
 
   .navbar{
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     max-width: 700px;
   }
