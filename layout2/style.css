@@ -26,3 +26,17 @@ h1, h2{
   background: url("img/manta.jpg") no-repeat center / cover;
 }
 
+#site-header h1{
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+.navbar a,
+.navbar button{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
