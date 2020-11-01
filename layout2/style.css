@@ -11,3 +11,18 @@ body{
 h1, h2{
   font-family: 'Roboto Slab', serif;
 }
+
+.img-full{
+  width: 100%;
+  height: 100vh;
+}
+
+#site-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5rem solid #f15050;
+  background: url("img/manta.jpg") no-repeat center / cover;
+}
+
