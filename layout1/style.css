@@ -237,6 +237,10 @@ input[type="submit"]:hover{
   background:#5e666d;
 }
 
+input[type="submit"]:focus{
+  outline: none;
+}
+
 ::-moz-placeholder{
   opacity: 1;
 }

@@ -19,14 +19,14 @@
       
       <div class="nav-middle">
         <a href="index.html" class="logo">Magazine</a>
-        <button class="nav-btn">Menu</button>
+        <button class="nav-btn" role="menu">Menu</button>
       </div>
       
       <div class="nav-right">
         <a href="#">About</a>
         <a href="#">Contact</a>
         <form class="form-search" action="#">
-          <input type="search" id="search" aria-label="Search" placeholder="Search...">
+          <input type="search" id="search" role="search" aria-label="Search" placeholder="Search...">
         </form>
       </div>
     </nav>
@@ -41,7 +41,7 @@
           <a href="#">Journey</a>
           <a class="heading" href="#"><h2>Corporis et numquam veniam</h2></a>
         </div>
-        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/18.jpg" alt=""></a>
+        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/18.jpg" alt="A mountain waterfall, stream and rocks covered with snow"></a>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ea ipsa quod id distinctio provident nisi nam harum veritatis facere!</p>
       </article>
 
@@ -52,7 +52,7 @@
           <a href="#">Lifestyle</a>
           <a class="heading" href="#"><h2>Dolore repellendus quo aliquid?</h2></a>
         </div>
-        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/12.jpg" alt=""></a>
+        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/12.jpg" alt="Three tourist hammocks hung on trees in a mountain forest"></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officiis assumenda necessitatibus quos expedita doloremque dolorum voluptate velit pariatur soluta?</p>
       </article>
 
@@ -63,7 +63,7 @@
           <a href="#">Photography</a>
           <a class="heading" href="#"><h2>Inventore doloribus vel tenetur</h2></a>
         </div>
-        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/22.jpg" alt=""></a>
+        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/22.jpg" alt="A tourist's legs hanging high in the air over a mountain river"></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore doloribus vel, tenetur sunt consequatur corporis nobis corrupti aut assumenda sint!</p>
       </article>
 
@@ -74,7 +74,7 @@
           <a href="#">Journey</a>
           <a class="heading" href="#"><h2>Quibusdam odio dolore!</h2></a>
         </div>
-        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/13.jpg" alt=""></a>
+        <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/13.jpg" alt="A traveller wearing a backpack on a rocky mountaintop looking at the valley and lake below"></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam unde autem odio dolore inventore! Nostrum sint accusantium veritatis optio quos!</p>
       </article>
     </main>
@@ -101,7 +101,7 @@
           <h2>Popular stories</h2>
           <article>
             <a class="heading" href="#"><h3>Dolore repellendus quo aliquid?</h3></a>
-            <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/12.jpg" alt=""></a>
+            <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/12.jpg" alt="Three tourist hammocks hung on trees in a mountain forest"></a>
             <div>
               <a href="#"><time datetime="2019-10-28 20:00">1 year ago</time></a>
               in 
@@ -109,8 +109,8 @@
             </div>
           </article>
           <article>
-            <a class="heading" href="#"><h3>Quibusdam odio dolore!</h3></a>
-            <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/13.jpg" alt=""></a>
+            <a class="heading" href="#" title="Read more"><h3>Quibusdam odio dolore!</h3></a>
+            <a class="image" href="#"><img src="https://milo.bootlab.io/img/articles/13.jpg" alt="A traveller on a rocky mountaintop looking at the valley and lake below"></a>
             <div>
               <a href="#"><time datetime="2019-10-26 18:00">1 year ago</time></a>
               in 
@@ -128,7 +128,7 @@
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
       <form class="form-email" action="#" method="POST">
-        <input type="email" name="email" id="email" placeholder="Email address"><input type="submit" name="submit" value="Subscribe">
+        <input type="email" name="email" id="email" placeholder="Email address" aria-label="Your email"><input type="submit" name="submit" value="Subscribe" role="button" aria-label="Newsletter subscription">
       </form>
     </div>
 
