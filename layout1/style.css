@@ -182,8 +182,8 @@ img{
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  padding: 80px;
-  background: #eee;
+  padding: 80px 40px;
+  background: #f2f4f5;
   text-align: center;
 }
 
@@ -193,14 +193,13 @@ img{
 
 .nwsl p{
   margin-bottom: 30px;
-  color: #798288;
+  color: #6c757d;
 }
 
 .form-email{
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  max-width: 100%;
 }
 
 input[type="email"],
@@ -212,7 +211,7 @@ input[type="submit"]{
 }
 
 input[type="email"]{
-  max-width: 100%;
+  width: 100%;
   color: #798288;
 }
 
@@ -347,8 +346,13 @@ input[type="submit"]:hover{
     max-width: 90vw;
   }
 
-  #aside h2, p, .tag, article{
-    padding: 0 24px;
+  #aside section{
+    padding: 25px 42px 30px;
+  }
+
+  .form-email{
+    width: 100%;
+    max-width: 450px;
   }
  }
 
@@ -393,6 +397,10 @@ input[type="submit"]:hover{
   
   #aside{
     flex-basis: 25%;
+  }
+
+  .form-email{
+    width: 500px;
   }
 }
 
