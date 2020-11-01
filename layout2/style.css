@@ -21,7 +21,6 @@ h1, h2{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   border-bottom: 0.5rem solid #f15050;
   background: url("img/manta.jpg") no-repeat center / cover;
 }
@@ -32,8 +31,14 @@ h1, h2{
   font-weight: 300;
 }
 
-.navbar{
+.navbar,
+.nav-group{
   display: flex;
+}
+
+.navbar{
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .navbar a,
@@ -42,5 +47,3 @@ h1, h2{
   text-decoration: none;
   font-weight: 700;
 }
-
-
