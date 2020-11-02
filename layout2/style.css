@@ -26,6 +26,7 @@ h1, h2{
 }
 
 #site-header h1{
+  padding: 0 40px;
   text-align: center;
   color: #fff;
   font-weight: 300;
@@ -40,7 +41,7 @@ h1, h2{
 
 .navbar a,
 .navbar button{
-  padding: 1rem 1.5rem;
+  padding: 16px 24px;
   color: #fff;
   text-decoration: none;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -66,12 +67,12 @@ h1, h2{
   }
 
   #site-header h1{
-    margin: 4rem 2rem;
+    margin: 64px auto;
     font-size: 2.6rem;
   }
 
   .navbar{
-    padding: 1.4rem;
+    padding: 22px;
     flex-flow: column wrap;
     align-items: flex-end;
     background: #001930a4;
@@ -79,10 +80,10 @@ h1, h2{
   }
 
   .logo{
-    margin-right: 1rem;
+    margin-right: 16px;
     position: absolute;
-    top: 1.4rem;
-    left: 1.2rem;
+    top: 22px;
+    left: 19px;
   }
 
   .nav-buttons{
@@ -115,18 +116,32 @@ h1, h2{
 
 @media (min-width: 883px){
   #site-header h1{
+    margin: 80px auto;
     font-size: 3.5rem;
-  }  
+  }
+
+  .navbar{
+    margin: 0 auto;
+    padding: 56px 26px;
+  }
 }
 
 @media (min-width: 1183px){
-  
+  #site-header h1,
+  .navbar{
+    max-width: 1090px;
+  }
 }
 
 @media (min-width: 1783px){
   #site-header h1{
-    margin: 4rem auto;
+    margin: 64px auto;
     font-size: 4.48rem;
+  }
+
+  #site-header h1,
+  .navbar{
+    max-width: 1395px;
   }
 
   .navbar a,
