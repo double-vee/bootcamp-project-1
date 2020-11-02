@@ -32,14 +32,10 @@ h1, h2{
 }
 
 .navbar,
-.nav-group{
+.nav-links,
+.nav-buttons{
   display: flex;
   align-items: baseline;
-}
-
-.navbar{
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .navbar a,
@@ -65,7 +61,47 @@ h1, h2{
 }
 
 @media (max-width: 882px){
+  .navbar{
+    padding: 1.4rem;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    background: #001930a4;
+    position: relative;
+  }
+
+  .logo{
+    margin-right: 1rem;
+    position: absolute;
+    top: 1.4rem;
+    left: 1.2rem;
+  }
+
+  .nav-buttons{
+    order: -1;
+  }
+
+  .nav-links{
+    flex-flow: column nowrap;
+    align-items: flex-end;
+  }  
+
+  .navbar a,
+  .navbar button{
+    font-size: 1.25rem;
+  }
+
+  .nav-links a,
+  .nav-buttons a{
+    display: none;
+  }
+
+  .navbar:hover .nav-links a{
+    display: block;
+  }
   
+  .menu-btn{
+    display: inline-block;
+  }
 }
 
 @media (min-width: 883px){
