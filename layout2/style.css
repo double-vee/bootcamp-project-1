@@ -33,6 +33,7 @@ h1, h2{
 }
 
 .navbar,
+.nav-group,
 .nav-links,
 .nav-buttons{
   display: flex;
@@ -45,7 +46,6 @@ h1, h2{
   color: #fff;
   text-decoration: none;
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -73,27 +73,25 @@ h1, h2{
 
   .navbar{
     padding: 22px;
-    flex-flow: column wrap;
-    align-items: flex-end;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     background: #001930a4;
-    position: relative;
   }
 
-  .logo{
-    margin-right: 16px;
-    position: absolute;
-    top: 22px;
-    left: 19px;
+  .nav-group{
+    display: flex;
+    flex-flow: column nowrap;
   }
 
   .nav-buttons{
     order: -1;
+    align-self: flex-end;
   }
 
   .nav-links{
     flex-flow: column nowrap;
     align-items: flex-end;
-  }  
+  }
 
   .navbar a,
   .navbar button{
@@ -122,7 +120,18 @@ h1, h2{
 
   .navbar{
     margin: 0 auto;
-    padding: 56px 26px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .nav-group{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+  }
+
+  .nav-links{
+    flex-wrap: nowrap;
   }
 }
 
@@ -142,6 +151,11 @@ h1, h2{
   #site-header h1,
   .navbar{
     max-width: 1395px;
+  }
+
+  .navbar{
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .navbar a,
