@@ -49,6 +49,19 @@ h1, h2{
   font-weight: 700;
 }
 
+.navbar a.logo{
+  padding: 16px 32px;
+}
+
+.nav-links a{
+  margin-left: 32px;
+  padding: 9.6px 0;
+}
+
+.nav-links a:hover{
+  border-bottom: 0.4rem solid #fff;
+}
+
 .donate-btn{
   border: none;
   background: #f15050;
@@ -91,6 +104,12 @@ h1, h2{
   .nav-links{
     flex-flow: column nowrap;
     align-items: flex-end;
+    padding: 0 24px;
+  }
+
+  .nav-links a{
+    margin-left: 0;
+    padding: 18px 0 9.6px 0;
   }
 
   .navbar a,
@@ -120,6 +139,7 @@ h1, h2{
 
   .navbar{
     margin: 0 auto;
+    padding: 46px 26px;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
@@ -132,6 +152,15 @@ h1, h2{
 
   .nav-links{
     flex-wrap: nowrap;
+  }
+
+  .navbar a,
+  .navbar button{
+    font-size: 1.1rem;
+  }
+
+  .nav-links a:hover{
+    border-bottom: 0.25rem solid #fff;
   }
 }
 
@@ -156,10 +185,15 @@ h1, h2{
   .navbar{
     flex-wrap: wrap;
     justify-content: center;
+    padding: 72px 26px;
   }
 
   .navbar a,
   .navbar button{
     font-size: 1.28rem;
+  }
+
+  .nav-links a:hover{
+    border-bottom: 0.4rem solid #fff;
   }
 }
