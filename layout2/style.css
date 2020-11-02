@@ -61,6 +61,15 @@ h1, h2{
 }
 
 @media (max-width: 882px){
+  #site-header{
+    justify-content: flex-start;
+  }
+
+  #site-header h1{
+    margin: 4rem 2rem;
+    font-size: 2.6rem;
+  }
+
   .navbar{
     padding: 1.4rem;
     flex-flow: column wrap;
@@ -105,7 +114,9 @@ h1, h2{
 }
 
 @media (min-width: 883px){
-  
+  #site-header h1{
+    font-size: 3.5rem;
+  }  
 }
 
 @media (min-width: 1183px){
@@ -113,5 +124,13 @@ h1, h2{
 }
 
 @media (min-width: 1783px){
-  
+  #site-header h1{
+    margin: 4rem auto;
+    font-size: 4.48rem;
+  }
+
+  .navbar a,
+  .navbar button{
+    font-size: 1.28rem;
+  }
 }
