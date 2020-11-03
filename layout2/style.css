@@ -21,7 +21,7 @@ h1, h2{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-bottom: 0.5rem solid #f15050;
+  border-bottom: 0.5rem solid #c95252;
   background: url("img/manta.jpg") no-repeat center / cover;
 }
 
@@ -38,6 +38,13 @@ h1, h2{
 .nav-buttons{
   display: flex;
   align-items: baseline;
+}
+
+.nav-links,
+.nav-buttons,
+.navbar a,
+.navbar button{
+  flex: 1 0 auto;
 }
 
 .navbar a,
@@ -62,15 +69,18 @@ h1, h2{
   border-bottom: 0.4rem solid #fff;
 }
 
-.donate-btn{
+.navbar button{
   border: none;
-  background: #f15050;
+  cursor: pointer;
+}
+
+.donate-btn{
+  background: #c95252;
   letter-spacing: 0.04rem;
 }
 
 .menu-btn{
   display: none;
-  border: none;
   background: none;
 }
 
@@ -128,6 +138,11 @@ h1, h2{
   
   .menu-btn{
     display: inline-block;
+    margin-left: 22px;
+  }
+
+  .fa-bars{
+    font-size: 1.5rem;
   }
 }
 
@@ -162,6 +177,10 @@ h1, h2{
   .nav-links a:hover{
     border-bottom: 0.25rem solid #fff;
   }
+
+  .nav-buttons a{
+    margin: 0 10px;
+  }
 }
 
 @media (min-width: 1183px){
@@ -195,5 +214,13 @@ h1, h2{
 
   .nav-links a:hover{
     border-bottom: 0.4rem solid #fff;
+  }
+
+  .fa-search{
+    font-size: 1.4rem;
+  }
+
+  .nav-buttons a{
+    margin: 0 15px;
   }
 }
