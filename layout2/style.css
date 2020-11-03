@@ -94,13 +94,23 @@ h1, h2{
 
 #site-footer a, p{
   padding: 10px;
-  color: #e9f0f1;
+  color: #a8b9bb;
   text-decoration: none;
+  font-size: 1rem;
+}
+
+#site-footer p{
+  color: #e2f2f3;
+}
+
+#site-footer a:hover{
+  color: #e2f2f3;
+  transition: color 0.4s;
 }
 
 .footer-wrapper{
   margin: 0 auto;
-  padding: 16px;
+  padding: 12px;
 }
 
 .footer-wrapper,
@@ -262,5 +272,9 @@ h1, h2{
 
   .nav-buttons a{
     margin: 0 15px;
+  }
+
+  #site-footer a, p{
+    font-size: 1.28rem;
   }
 }
