@@ -92,18 +92,19 @@ h1, h2{
   background: #000e14;
 }
 
-#site-footer a, p{
+.footer-wrapper a,
+.footer-wrapper p{
   padding: 10px;
   color: #a8b9bb;
   text-decoration: none;
   font-size: 1rem;
 }
 
-#site-footer p{
+.footer-wrapper p{
   color: #e2f2f3;
 }
 
-#site-footer a:hover{
+.footer-wrapper a:hover{
   color: #e2f2f3;
   transition: color 0.4s;
 }
@@ -274,7 +275,8 @@ h1, h2{
     margin: 0 15px;
   }
 
-  #site-footer a, p{
+  .footer-wrapper a,
+  .footer-wrapper p{
     font-size: 1.28rem;
   }
 }
