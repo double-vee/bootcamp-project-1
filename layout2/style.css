@@ -57,12 +57,16 @@ h1, h2{
 }
 
 .navbar a.logo{
-  padding: 16px 32px;
+  padding: 16px 32px 16px 0;
 }
 
 .nav-links a{
   margin-left: 32px;
   padding: 9.6px 0;
+}
+
+.nav-links a:first-child{
+  margin-left: 0;
 }
 
 .nav-links a:hover{
@@ -188,7 +192,8 @@ h1, h2{
     margin: 0 auto;
     padding: 46px 26px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    width: 100%;
   }
 
   .nav-group{
@@ -219,6 +224,7 @@ h1, h2{
   #site-header h1,
   .navbar,
   .footer-wrapper{
+    width: 100%;
     max-width: 1090px;
   }
 }
