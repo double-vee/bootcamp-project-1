@@ -54,10 +54,11 @@ h1, h2{
   text-decoration: none;
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 700;
+  line-height: 1rem;
 }
 
 .navbar a.logo{
-  padding: 16px 32px 16px 0;
+  padding: 0;
 }
 
 .nav-links a{
@@ -70,7 +71,7 @@ h1, h2{
 }
 
 .nav-links a:hover{
-  border-bottom: 0.4rem solid #fff;
+  border-bottom: 0.25rem solid #fff;
 }
 
 .navbar button{
@@ -81,6 +82,10 @@ h1, h2{
 .donate-btn{
   background: #c95252;
   letter-spacing: 0.04rem;
+}
+
+.donate-btn:hover{
+  background: #022f4d;
 }
 
 .menu-btn{
@@ -225,7 +230,6 @@ h1, h2{
   .nav-links{
     flex-flow: column nowrap;
     align-items: flex-end;
-    padding: 0 24px;
   }
 
   .nav-links a{
@@ -235,7 +239,16 @@ h1, h2{
 
   .navbar a,
   .navbar button{
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .logo img{
+    height: 48px;
+    width: 120px;
+  }
+
+  .donate-btn:hover{
+    background: #3fa6a9;
   }
 
   .nav-links a,
@@ -247,9 +260,10 @@ h1, h2{
     display: block;
   }
   
-  .menu-btn{
-    display: inline-block;
+  .navbar button.menu-btn{
+    display: block;
     margin-left: 22px;
+    padding: 12px 0;
   }
 
   .fa-bars{
@@ -299,16 +313,13 @@ h1, h2{
     font-size: 1.1rem;
   }
 
-  .nav-links a:hover{
-    border-bottom: 0.25rem solid #fff;
-  }
-
   .nav-buttons a{
     margin: 0 10px;
   }
 
   .about-section{
     padding: 80px 0;
+  }
 }
 
 @media (min-width: 1183px){
@@ -317,7 +328,7 @@ h1, h2{
   .about-wrapper,
   .footer-wrapper{
     width: 100%;
-    max-width: 1090px;
+    max-width: 1170px;
   }
 
   .about-article{
