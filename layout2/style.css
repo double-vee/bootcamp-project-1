@@ -97,10 +97,20 @@ h1, h2{
   color: #e5eef1;
   font-size: 1.25rem;
   font-weight: 400;
+  line-height: 2rem;
 }
 
 .about-wrapper{
+  margin: 0 auto;
   padding: 0 40px;
+}
+
+.aside-share{
+  margin-right: 50px;
+}
+
+.about-article{
+  margin: 0 100px;
 }
 
 .aside-share h3{
@@ -112,6 +122,10 @@ h1, h2{
 
 .about-article p{
   margin-bottom: 24px;
+}
+
+.about-article ul{
+  padding-left: 34px;
 }
 
 .about-article li{
@@ -264,6 +278,7 @@ h1, h2{
 @media (min-width: 1183px){
   #site-header h1,
   .navbar,
+  .about-wrapper,
   .footer-wrapper{
     width: 100%;
     max-width: 1090px;
@@ -278,6 +293,7 @@ h1, h2{
 
   #site-header h1,
   .navbar,
+  .about-wrapper,
   .footer-wrapper{
     max-width: 1395px;
   }
@@ -307,6 +323,7 @@ h1, h2{
 
   .about-section{
     font-size: 1.6rem;
+    line-height: 2.56rem;
   }
 
   .aside-share h3{
