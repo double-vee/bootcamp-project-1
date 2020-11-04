@@ -37,7 +37,7 @@ h1, h2{
 .nav-links,
 .nav-buttons{
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .nav-links,
@@ -204,19 +204,22 @@ h1, h2{
 
   .navbar{
     padding: 22px;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: baseline;
     background: #001930a4;
   }
 
   .nav-group{
     display: flex;
     flex-flow: column nowrap;
+    align-self: flex-end;
   }
 
   .nav-buttons{
     order: -1;
     align-self: flex-end;
+    justify-content: space-between;
   }
 
   .nav-links{
@@ -285,7 +288,6 @@ h1, h2{
   .nav-group{
     display: flex;
     flex-wrap: nowrap;
-    align-items: baseline;
   }
 
   .nav-links{
