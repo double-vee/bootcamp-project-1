@@ -90,8 +90,34 @@ button{
   height: auto;
 }
 
+.form-section{
+  margin-top: 40px;
+  padding: 30px;
+  background: #7d8472;
+}
+
+#site-footer{
+  padding: 20px;
+}
+
+.footer-wrapper p{
+  margin: 10px auto;
+}
+
 
 @media (min-width: 944px){
+  .navbar,
+  .footer-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .items-section,
+  .nwsl-form{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
   .nav-group,
   .nav-links{
     flex-direction: row;
