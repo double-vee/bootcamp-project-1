@@ -23,3 +23,58 @@ button{
   font-weight: 300;
   line-height: 1rem;
 }
+
+#site-header,
+#site-main,
+.nav-group,
+.nav-links,
+.categories-nav,
+.form-section,
+.nwsl-form,
+#site-footer,
+.footer-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar,
+.nav-icons,
+.categories-links,
+.items-section,
+.page-nav,
+.footer-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-links a{
+  display: none;
+}
+
+.banner-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-section{
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+@media (min-width: 944px){
+  .nav-group,
+  .nav-links{
+    flex-direction: row;
+  }
+  
+  .nav-links a{
+    display: block;
+  }
+}
