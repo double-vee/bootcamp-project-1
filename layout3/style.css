@@ -29,6 +29,7 @@ button{
 .nav-group,
 .nav-links,
 .categories-nav,
+.item,
 .form-section,
 .nwsl-form,
 #site-footer,
@@ -60,11 +61,33 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 45vh;
+  background: url(img/pexels-tom-cordner-1399094.jpg) no-repeat center / cover;
+  color: #fff;
 }
 
 .items-section{
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.item{
+  justify-content: center;
+  width: 298px;
+  height: 444px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.item:hover{
+  border: 1px solid #000;
+}
+
+.item img{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 
