@@ -17,3 +17,5 @@
 [Link to layout 2](layout2/index.html)
 
 ## Layout 3
+
+[Link to layout 3](layout3/index.html)
