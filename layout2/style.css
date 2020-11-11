@@ -211,14 +211,13 @@ h1, h2{
     padding: 22px;
     flex-flow: row wrap;
     justify-content: flex-end;
-    align-items: baseline;
+    align-items: flex-start;
     background: #001930a4;
   }
 
   .nav-group{
     display: flex;
     flex-flow: column nowrap;
-    align-self: flex-end;
   }
 
   .nav-buttons{
@@ -319,6 +318,12 @@ h1, h2{
 
   .about-section{
     padding: 80px 0;
+  }
+
+  .aside-share{
+    position: sticky;
+    top: 30px;
+    max-height: 200px;
   }
 }
 
