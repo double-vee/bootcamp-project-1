@@ -181,7 +181,7 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 80px 40px;
   background: #f2f4f5;
   text-align: center;
@@ -325,6 +325,8 @@ input[type="submit"]:focus{
     padding: 10px 15px;
     border: 1px solid #eee;
     background: none;
+    color: #8d979e;
+    font-size: 1rem;
   }
 
   .nav-left,
@@ -348,6 +350,12 @@ input[type="submit"]:focus{
     flex-direction: column;
     margin: 15px auto;
     max-width: 90vw;
+  }
+
+  #main article,
+  #aside section{
+    max-width: 535px;
+    margin: 0 auto;
   }
 
   #aside section{
