@@ -157,7 +157,6 @@ body{
 .item{
   justify-content: center;
   width: 298px;
-  height: 444px;
 }
 
 .item:hover{
@@ -168,6 +167,53 @@ body{
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.item h3{
+  margin: 10px 0 15px;
+  font-size: 0.94rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.item a{
+  padding: 15px 15px 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.item .horizontal-line{
+  margin-bottom: 15px;
+  width: 45px;
+  border: none;
+  border-top: 1px solid #000;
+}
+
+.item p{
+  font-size: 0.94rem;
+  font-style: italic;
+  line-height: 0.94rem;
+}
+
+.item .strike{
+  color: #bababa;
+  text-decoration: line-through;
+}
+
+.item button{
+  margin: 20px;
+  padding: 15px 60px;
+  border: 1px solid #000;
+  background: none;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 0.98rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.item button:hover{
+  background: #000;
+  color: #fff;
 }
 
 .form-section{
