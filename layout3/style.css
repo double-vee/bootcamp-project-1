@@ -214,6 +214,32 @@ body{
 .item button:hover{
   background: #000;
   color: #fff;
+  cursor: pointer;
+}
+
+.page-nav{
+  gap: 8px;
+  margin: 25px 15px;
+}
+
+.page-nav a{
+  padding: 10px 15px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+  text-decoration: none;
+}
+
+.page-nav a.current-page,
+.page-nav a:hover{
+  background: #000;
+  color: #fff;
+}
+
+.page-nav a.previous-page{
+  display: none;
 }
 
 .form-section{
