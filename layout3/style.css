@@ -13,10 +13,6 @@ h1, h2, h3{
   font-family: 'Poppins', Arial, sans-serif;
 }
 
-h2{
-  font-size: 1rem;
-}
-
 h3, button{
   font-size: 0.938rem;
 }
@@ -138,6 +134,40 @@ button{
   font-weight: 200;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
+}
+
+.categories-nav{
+  margin: 40px auto;
+}
+
+.categories-nav h2{
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.categories-links a{
+  padding: 8px 0;
+  color: #000;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.categories-links a::after{
+  content: "•";
+  margin: 0 12px;
+}
+
+.categories-links a:last-child::after{
+  content: "";
+  margin: 0;
+}
+
+.categories-links a:hover .underline{
+  text-decoration: underline #000 solid;
 }
 
 .items-section{
