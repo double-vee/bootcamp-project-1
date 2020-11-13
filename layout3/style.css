@@ -243,12 +243,84 @@ body{
 }
 
 .form-section{
-  margin-top: 40px;
-  padding: 30px;
+  margin: 30px 0;
   background: #7d8472;
 }
 
+.nwsl-form{
+  align-items: flex-start;
+  text-align: left;
+  padding: 30px;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.nwsl-form p{
+  margin-bottom: 10px;
+}
+
+.nwsl-form input[type="text"]{
+  margin-top: 20px;
+}
+
+.nwsl-form input[type="text"],
+.nwsl-form input[type="email"]{
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: none;
+  color: #000;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1rem;
+}
+
+.nwsl-form input::placeholder{
+  color:#b8b8b8;
+}
+
+.nwsl-form input:focus{
+  border-bottom: 2px solid #000;
+  outline: none;
+}
+
+.nwsl-form input:invalid{
+  box-shadow: none;
+}
+
+::-moz-placeholder{
+  opacity: 1;
+}
+
+input[type="checkbox"]{
+  margin-right: 15px;
+}
+
+.nwsl-form label{
+  margin-top: 20px;
+}
+
+.nwsl-form button{
+  align-self: center;
+  margin: 30px 0;
+  padding: 15px 50px;
+  border: 1px solid #000;
+  background: none;
+  font-size: 0.98rem;
+  font-weight: 300;
+  letter-spacing: 0.025rem;
+}
+
+.nwsl-form button:hover{
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
 .nwsl-form p:last-child{
+  margin-bottom: 0;
   font-size: 0.75rem;
 }
 
