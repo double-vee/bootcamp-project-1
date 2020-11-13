@@ -12,10 +12,14 @@
 
 [Source](https://www.sharkconservationfund.org/)
 
-![layout 1](layout2.png)
+![layout 2](layout2.png)
 
 [Link to layout 2](layout2/index.html)
 
 ## Layout 3
+
+[Source](https://dworzysk.pl/sklep/)
+
+![layout 3](layout3.png)
 
 [Link to layout 3](layout3/index.html)
