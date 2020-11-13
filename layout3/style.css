@@ -15,7 +15,6 @@ body{
 .item,
 .form-section,
 .nwsl-form,
-#site-footer,
 .footer-wrapper{
   display: flex;
   flex-direction: column;
@@ -325,16 +324,28 @@ input[type="checkbox"]{
 }
 
 #site-footer{
-  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-wrapper{
+  padding: 0 30px;
 }
 
 .footer-wrapper p{
-  margin: 10px auto;
-  font-size: 0.75rem;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-size: 0.785rem;
 }
 
 .footer-nav a{
-  font-size: 0.75rem;
+  padding: 0 15px;
+  color: #000;
+  font-size: 0.785rem;
+  text-decoration: none;
+}
+
+.footer-nav a:hover{
+  text-decoration: underline #000 1px;
 }
 
 @media (min-width: 944px){
@@ -400,5 +411,9 @@ input[type="checkbox"]{
 
   .banner h1{
     font-size: 3.5rem;
+  }
+
+  .footer-wrapper p{
+    margin: 0;
   }
 }
