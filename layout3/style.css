@@ -338,8 +338,8 @@ input[type="checkbox"]{
   padding: 15px 50px;
   border: 1px solid #000;
   background: none;
-  font-size: 0.98rem;
-  font-weight: 300;
+  font-size: 0.94rem;
+  font-weight: 200;
   letter-spacing: 0.025rem;
 }
 
@@ -365,13 +365,13 @@ input[type="checkbox"]{
 .footer-wrapper p{
   margin-bottom: 20px;
   padding: 0 15px;
-  font-size: 0.785rem;
+  font-size: 0.875rem;
 }
 
 .footer-nav a{
   padding: 0 15px;
   color: #000;
-  font-size: 0.785rem;
+  font-size: 0.875rem;
   text-decoration: none;
 }
 
@@ -443,6 +443,7 @@ input[type="checkbox"]{
   .banner h1{
     margin-top: 90px;
     font-size: 3.5rem;
+    line-height: 4.5rem;
   }
 
   .footer-wrapper p{
