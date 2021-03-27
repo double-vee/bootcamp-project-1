@@ -183,10 +183,11 @@ a.current{
   justify-content: center;
   width: 298px;
   position: relative;
+  border: 1px solid transparent;
 }
 
 .item:hover{
-  border: 1px solid #000;
+  border-color: #000;
 }
 
 .new-item{
