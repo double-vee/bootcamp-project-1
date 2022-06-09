@@ -1,25 +1,21 @@
-# jfdzr2-project-1
+This is my first solo project completed during the front-end bootcamp at InfoShare Academy.
 
-## Layout 1
+The task was to recreate 3 selected responsive layouts using HTML and CSS.
 
-[Source](https://milo.bootlab.io/home-twocolumn.html)
+1. Magazine/blog
 
-![layout 1](layout1.png)
+- [Recreated layout](https://double-vee.github.io/bootcamp-project-1/layout1/index.html)
 
-[Link to layout 1](layout1/index.html)
+- [Reference](https://milo.bootlab.io/home-twocolumn.html)
 
-## Layout 2
+2. Shark conservation fund page
 
-[Source](https://www.sharkconservationfund.org/)
+- [Recreated layout](https://double-vee.github.io/bootcamp-project-1/layout2/index.html)
 
-![layout 2](layout2.png)
+- [Reference](https://www.sharkconservationfund.org/)
 
-[Link to layout 2](layout2/index.html)
+3. Coffee store
 
-## Layout 3
+- [Recreated layout](https://double-vee.github.io/bootcamp-project-1/layout3/index.html)
 
-[Source](https://dworzysk.pl/sklep/)
-
-![layout 3](layout3.png)
-
-[Link to layout 3](layout3/index.html)
+- [Reference](https://dworzysk.pl/sklep/)
